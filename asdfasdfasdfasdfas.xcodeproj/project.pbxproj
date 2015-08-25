@@ -15,6 +15,9 @@
 		4A3585661B8AE3AE005902D8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A3585651B8AE3AE005902D8 /* Images.xcassets */; };
 		4A3585691B8AE3AE005902D8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A3585671B8AE3AE005902D8 /* LaunchScreen.xib */; };
 		4A3585751B8AE3AE005902D8 /* asdfasdfasdfasdfasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3585741B8AE3AE005902D8 /* asdfasdfasdfasdfasTests.m */; };
+		4A3585891B8B0963005902D8 /* ListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3585881B8B0963005902D8 /* ListCell.m */; };
+		4AED8F531B8C04B4003F2043 /* FootView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AED8F521B8C04B4003F2043 /* FootView.m */; };
+		4AED8F811B8C4535003F2043 /* HeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AED8F801B8C4535003F2043 /* HeadView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +45,12 @@
 		4A35856E1B8AE3AE005902D8 /* asdfasdfasdfasdfasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = asdfasdfasdfasdfasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A3585731B8AE3AE005902D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A3585741B8AE3AE005902D8 /* asdfasdfasdfasdfasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = asdfasdfasdfasdfasTests.m; sourceTree = "<group>"; };
+		4A3585871B8B0963005902D8 /* ListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListCell.h; sourceTree = "<group>"; };
+		4A3585881B8B0963005902D8 /* ListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListCell.m; sourceTree = "<group>"; };
+		4AED8F511B8C04B4003F2043 /* FootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FootView.h; sourceTree = "<group>"; };
+		4AED8F521B8C04B4003F2043 /* FootView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FootView.m; sourceTree = "<group>"; };
+		4AED8F7F1B8C4535003F2043 /* HeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeadView.h; sourceTree = "<group>"; };
+		4AED8F801B8C4535003F2043 /* HeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeadView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +96,12 @@
 				4A35855A1B8AE3AE005902D8 /* AppDelegate.m */,
 				4A35855F1B8AE3AE005902D8 /* ViewController.h */,
 				4A3585601B8AE3AE005902D8 /* ViewController.m */,
+				4A3585871B8B0963005902D8 /* ListCell.h */,
+				4A3585881B8B0963005902D8 /* ListCell.m */,
+				4AED8F511B8C04B4003F2043 /* FootView.h */,
+				4AED8F521B8C04B4003F2043 /* FootView.m */,
+				4AED8F7F1B8C4535003F2043 /* HeadView.h */,
+				4AED8F801B8C4535003F2043 /* HeadView.m */,
 				4A3585621B8AE3AE005902D8 /* Main.storyboard */,
 				4A3585651B8AE3AE005902D8 /* Images.xcassets */,
 				4A3585671B8AE3AE005902D8 /* LaunchScreen.xib */,
@@ -225,6 +240,9 @@
 				4A35855B1B8AE3AE005902D8 /* AppDelegate.m in Sources */,
 				4A3585581B8AE3AE005902D8 /* main.m in Sources */,
 				4A3585611B8AE3AE005902D8 /* ViewController.m in Sources */,
+				4AED8F531B8C04B4003F2043 /* FootView.m in Sources */,
+				4AED8F811B8C4535003F2043 /* HeadView.m in Sources */,
+				4A3585891B8B0963005902D8 /* ListCell.m in Sources */,
 				4A35855E1B8AE3AE005902D8 /* asdfasdfasdfasdfas.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,6 +438,7 @@
 				4A35857A1B8AE3AE005902D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4A35857B1B8AE3AE005902D8 /* Build configuration list for PBXNativeTarget "asdfasdfasdfasdfasTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +447,7 @@
 				4A35857D1B8AE3AE005902D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
